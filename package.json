@@ -1,0 +1,20 @@
+{
+  "name": "exchangeRateBot",
+  "version": "1.0.0",
+  "description": "Nipa's homework",
+  "main": "app.js",
+  "author": "mtsthanadech",
+  "scripts": {
+    "serve": "node app.js",
+    "start": "nodemon node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
